@@ -10,3 +10,5 @@ A decision tree is a tree in which each internal node is labelled with an input 
 As expected, a random forest is a collection of decision trees. Random forests are a type of ensemble method. Each tree within a random forest is built on a random sample from the original data. Secondly, at each tree node, a subset of features are randomly selected to generate the best split based on the random sample of the original data.
 
 For this demonstration, the randomForest R package is used. An the Kaggle House Prices data set (https://www.kaggle.com/c/house-prices-advanced-regression-techniques). 
+
+We do not perform any feature engineering, we use the whole dataset. Obviously, feature engineering could/would improve the fit to the data. 
